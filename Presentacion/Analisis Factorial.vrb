@@ -1,3 +1,23 @@
-\frametitle{Contenidos}
-\setbeamertemplate{section in toc}[sections numbered]
-  \tableofcontents[hideallsubsections]
+\frametitle{Instalación}
+\vspace{10px}
+	\pause
+	\metroset{block=fill}
+	\begin{block}{Paquetes a instalar}
+		\begin{itemize}
+			\item install.packages(``psych''): implementa Análisis Factorial
+			\pause
+			\item install.packages(``GPArotation''): implementa la Rotación de Factores
+			\pause
+		\end{itemize}
+	\end{block}
+	\vspace{10px}
+	\pause
+	\metroset{block=fill}
+	\begin{alertblock}{Importa los paquetes}
+		\begin{itemize}
+			\item library(psych)
+			\pause
+			\item library(GPArotation)
+			\pause
+		\end{itemize}
+	\end{alertblock}
