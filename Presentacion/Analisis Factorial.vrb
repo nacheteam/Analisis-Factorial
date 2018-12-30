@@ -1,23 +1,15 @@
-\frametitle{Instalación}
+\frametitle{Función fa}
 \vspace{10px}
-	\pause
-	\metroset{block=fill}
-	\begin{block}{Paquetes a instalar}
-		\begin{itemize}
-			\item install.packages(``psych''): implementa Análisis Factorial
-			\pause
-			\item install.packages(``GPArotation''): implementa la Rotación de Factores
-			\pause
-		\end{itemize}
-	\end{block}
-	\vspace{10px}
-	\pause
-	\metroset{block=fill}
-	\begin{alertblock}{Importa los paquetes}
-		\begin{itemize}
-			\item library(psych)
-			\pause
-			\item library(GPArotation)
-			\pause
-		\end{itemize}
-	\end{alertblock}
+\pause
+\metroset{block=fill}
+\begin{block}{Parámetros de la función}
+	\begin{itemize}
+		\item r: matriz de covarianza o correlación.
+		\pause
+		\item nfactors: número de factores a extraer, por defecto 1.
+		\pause
+		\item n.obs: nº de observaciones si usamos una matriz de correlación
+		\pause
+		\item np.obs: nº de parejas de observaciones si usamos una matriz de covarianza.
+	\end{itemize}
+\end{block}
