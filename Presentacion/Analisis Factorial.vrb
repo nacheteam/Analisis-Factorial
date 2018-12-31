@@ -1,4 +1,4 @@
-\frametitle{Función fa}
+\frametitle{Funciones}
 \vspace{10px}
 \pause
 \metroset{block=fill}
@@ -12,4 +12,5 @@
 		\pause
 		\item principal: función del paquete psych que implementa PCA devolviendo siempre los mejores factores.
 	\end{itemize}
+	En este caso he usado la función fa como función principal y factanal. Para comparar con PCA he usado principal.
 \end{block}
