@@ -69,15 +69,15 @@
 \vspace{10px}
 \pause
 \metroset{block=fill}
-\begin{block}{Parámetros de la función}
+\begin{block}{Funciones a usar}
 	\begin{itemize}
-		\item r: matriz de covarianza o correlación.
+		\item fa: función del paquete psych que implementa Análisis Factorial.
 		\pause
-		\item nfactors: número de factores a extraer, por defecto 1.
+		\item factanal: función del paquete stats que implementa Análisis Factorial Exploratorio con máxima verosimilitud.
 		\pause
-		\item n.obs: nº de observaciones si usamos una matriz de correlación
+		\item prcomp: función del paquete stats que implementa PCA.
 		\pause
-		\item np.obs: nº de parejas de observaciones si usamos una matriz de covarianza.
+		\item principal: función del paquete psych que implementa PCA devolviendo siempre los mejores factores.
 	\end{itemize}
 \end{block}
 \end{frame}
