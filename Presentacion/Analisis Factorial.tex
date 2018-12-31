@@ -40,6 +40,42 @@
   \tableofcontents[hideallsubsections]
 \end{frame}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                          Explicación teórica del modelo                                 %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Explicación teórica del modelo}
+
+\begin{frame}[fragile]{Modelo}
+	\vspace{10px}
+	\pause
+	\metroset{block=fill}
+	\begin{alertblock}{Idea de AF}
+		El objetivo de este modelo es, dada una matriz de covarianzas o de correlación, ser capaz de explicar esta matriz a partir de factores no observados llamados factores comunes, de forma que se pueda explicar la matriz con un número menor de variables que en un punto inicial.
+	\end{alertblock}
+	De esta forma matricialmente si tenemos n observaciones de dimensión p tendríamos una matriz
+	$F=
+	\begin{pmatrix}
+	F_{11} & ... & F_{1n} \\
+	... & ... & ... \\
+	F_{k1} & ... & F_{kn}
+	\end{pmatrix}
+	$ de factores y 
+	$L=
+	\begin{pmatrix}
+	l_{11} & ... & l_{1k} \\
+	... & ... & ... \\
+	l_{p1} & ... & l_{pk}	
+	\end{pmatrix}
+	$ una matriz de coeficientes de forma que $x-\mu = LF + \epsilon$ donde $\epsilon$ es un vector de errores.
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                         Explicación del ejemplo y uso en R                              %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Explicación del ejemplo en R}
+
 \begin{frame}[fragile]{Instalación}
 	\vspace{10px}
 	\pause
