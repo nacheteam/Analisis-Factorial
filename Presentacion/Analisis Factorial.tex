@@ -83,6 +83,33 @@
 \end{block}
 \end{frame}
 
+\begin{frame}[fragile]{EFA}
+\vspace{10px}
+\pause
+\metroset{block=fill}
+\begin{block}{Procesos de ajuste}
+	\begin{itemize}
+		\item Máxima verosimilitud: es una buena opción cuando los datos se distribuyen según una normal. Se intenta que el modelo de los factores obtenidos tenga máxima verosimilitud.
+		\pause
+		\item Factorización en el eje principal: la intención es ir obteniendo factores de forma que el primero tenga la varianza lo más próxima al objetivo, el segundo factor la segunda varianza más próxima a la varianza objetivo, etc. Maximiza la fórmula del modelo.
+	\end{itemize}
+\end{block}
+\end{frame}
+
+\begin{frame}[fragile]{EFA}
+	La rotación de factores se emplea para obtener la estructura de factores más simple escogiendo una orientación de los mismos.
+	\vspace{10px}
+	\pause
+	\metroset{block=fill}
+	\begin{block}{Rotación de factores}
+		\begin{itemize}
+			\item Ortogonal: implica que los factores estén incorrelados y busca la estructura más simple.
+			\pause
+			\item Oblicua: permite que los factores estén correlados y busca la estructura más simple.
+		\end{itemize}
+	\end{block}
+\end{frame}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                         Explicación del ejemplo y uso en R                              %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
