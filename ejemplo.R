@@ -1,5 +1,8 @@
 # Initialize covariance matrix
 cov_matrix <- Harman74.cor$cov
+library(psych)
+library(GPArotation)
+library(cfa)
 
 ###############################################################################
 ##                               With rotation                               ##
