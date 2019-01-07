@@ -110,6 +110,58 @@
 	\end{block}
 \end{frame}
 
+
+\begin{frame}[fragile]{EFA}
+No sólo tenemos que estudiar la generación de los factores, si no también cuántos factores debemos escoger.
+\vspace{10px}
+\pause
+\metroset{block=fill}
+\begin{block}{Métodos para escoger el número de factores}
+	\begin{itemize}
+		\item Regla de Kaiser: tomamos los valores propios de la matriz de entrada y comprobamos cuántos de ellos son mayores que 1. Este es el número de factores a tomar. En caso de no haberlo se toma un factor.
+		\item Criterio de la gráfica de Cattell's: obtenemos los valores propios de la matriz de entrada y los pintamos de mayor a menor. Analizamos el cambio entre los valores propios y donde se produzca el último cambio brusco contamos el número de valores propios hasta él. Este es el número de factores. Es un método subjetivo y ampliamente criticado.
+	\end{itemize}
+\end{block}
+\end{frame}
+
+\begin{frame}[fragile]{EFA}
+\vspace{10px}
+\pause
+\metroset{block=fill}
+\begin{block}{Métodos para escoger el número de factores}
+	\begin{itemize}
+		\item VSS (Very Simple Structure): este procedimiento toma un modelo simplificado del problema e intenta ver para qué número de factores los valores obtenidos se acercan más a los que deberían ser.
+		\item Comparación de modelos: intentan obtener una medida de cómo de bueno y complejo es el modelo creado con un número de factores dado, de forma que se intenta maximizar el resultado y minimizar la complejidad.
+		\item OC (Optimal Coordinate): intenta eliminar la subjetividad del método de Cattell. Se calculan los gradientes en la misma gráfica de dicho método y se comprueba dónde hay un cambio más abrupto. Esto delimita el número de factores.
+		\item AF (Acceleration Factor): persigue el mismo objetivo que el método anterior, salvo que en este caso se realiza el cálculo con la pendiente de la curva asociada.
+	\end{itemize}
+\end{block}
+\end{frame}
+
+\begin{frame}[fragile]{EFA}
+\vspace{10px}
+\pause
+\metroset{block=fill}
+\begin{block}{Métodos para escoger el número de factores}
+	\begin{itemize}
+		\item MAP (Minimum Average Partial) test: se realiza, desde k=1 hasta el número de variables menos 1 un análisis PCA del modelo con k número de factores. Se estudia cómo se comporta dicho modelo con k factores y se toma el valor de k para el cual se ha obtenido el mejor resultado.
+		\item PA (Parallel Analysis): tomamos la misma gráfica que en el método de Cattell y generamos aleatoriamente un conjunto de valores. Estos valores representan los valores medios de los valores propios de matrices aleatorias con el mismo número de variables y datos que la original. Hallamos la media para estos valores y tomamos como número de factores el de los que superen este valor medio. Se puede ver como un refinamiento de la regla de Kaiser ajustando la cota.
+	\end{itemize}
+\end{block}
+\end{frame}
+
+\begin{frame}[fragile]{EFA}
+\vspace{10px}
+\pause
+\metroset{block=fill}
+\begin{block}{Métodos para escoger el número de factores}
+	\begin{itemize}
+		\item Comparación de datos: se realiza una comparación entre modelos con una separación en factores ya conocida como correcta comparando los valores propios de la matriz y los factores escogidos en cada caso. Se toma el número de factores del modelo cuyos valores propios se parezcan más a los del caso que estamos analizando.
+		\item Convergencia de múltiples tests: esta estrategia busca de forma empírica el mejor número de factores analizando la convergencia del modelo.
+	\end{itemize}
+\end{block}
+\end{frame}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                         Explicación del ejemplo y uso en R                              %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
