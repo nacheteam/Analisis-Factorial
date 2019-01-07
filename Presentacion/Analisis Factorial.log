@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.6.17)  7 JAN 2019 17:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.6.17)  7 JAN 2019 19:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1207,187 +1207,112 @@ LaTeX Info: Redefining \% on input line 1.
 
 (./Analisis Factorial.vrb) [4
 
-] (./Analisis Factorial.vrb) [5
-
 ]
 \openout4 = `"Analisis Factorial.vrb"'.
 
-
-(./Analisis Factorial.vrb
-LaTeX Font Info:    Try loading font information for OMS+cmss on input line 7.
-LaTeX Font Info:    No file OMScmss.fd. on input line 7.
+ (./Analisis Factorial.vrb
+LaTeX Font Info:    Try loading font information for OMS+cmss on input line 6.
+LaTeX Font Info:    No file OMScmss.fd. on input line 6.
 
 
 LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 7.
+(Font)              for symbol `textbullet' on input line 6.
 
-) [6
+) [5
 
-] (./Analisis Factorial.vrb) [7
+]
+\openout4 = `"Analisis Factorial.vrb"'.
 
-] (./Analisis Factorial.vrb) [8
+ (./Analisis Factorial.vrb) [6
+
+]
+\openout4 = `"Analisis Factorial.vrb"'.
+
+ (./Analisis Factorial.vrb) [7
 
 ]
 \openout4 = `"Analisis Factorial.vrb"'.
 
 
-(./Analisis Factorial.vrb) [9
-
-] (./Analisis Factorial.vrb) [10
-
-]
-(./Analisis Factorial.vrb) [11
+(./Analisis Factorial.vrb) [8
 
 ]
 \openout4 = `"Analisis Factorial.vrb"'.
 
- (./Analisis Factorial.vrb) [12
+ (./Analisis Factorial.vrb)
+Overfull \vbox (19.77248pt too high) detected at line 130
+ []
+
+[9
 
 ]
-(./Analisis Factorial.vrb) [13
+\openout4 = `"Analisis Factorial.vrb"'.
 
-] (./Analisis Factorial.vrb) [14
+ (./Analisis Factorial.vrb) [10
+
+]
+\openout4 = `"Analisis Factorial.vrb"'.
+
+ (./Analisis Factorial.vrb) [11
 
 ]
 \openout4 = `"Analisis Factorial.vrb"'.
 
 
-(./Analisis Factorial.vrb) [15
+(./Analisis Factorial.vrb) [12
 
-] (./Analisis Factorial.vrb) [16
+]
+\openout4 = `"Analisis Factorial.vrb"'.
+
+ (./Analisis Factorial.vrb) [13
 
 ]
 \openout4 = `"Analisis Factorial.vrb"'.
 
 
 (./Analisis Factorial.vrb)
-Overfull \vbox (19.77248pt too high) detected at line 139
+Overfull \vbox (2.41699pt too high) detected at line 179
  []
 
-[17
+[14
 
-] (./Analisis Factorial.vrb)
-Overfull \vbox (19.77248pt too high) detected at line 139
- []
+]
+\openout4 = `"Analisis Factorial.vrb"'.
 
-[18
+ (./Analisis Factorial.vrb) [15
+
+]
+\openout4 = `"Analisis Factorial.vrb"'.
+
+ (./Analisis Factorial.vrb) [16
+
+]
+\openout4 = `"Analisis Factorial.vrb"'.
+
+
+(./Analisis Factorial.vrb) [17
+
+] [18
 
 ]
 \openout4 = `"Analisis Factorial.vrb"'.
 
  (./Analisis Factorial.vrb) [19
 
-] (./Analisis Factorial.vrb) [20
-
 ]
 \openout4 = `"Analisis Factorial.vrb"'.
 
 
-(./Analisis Factorial.vrb) [21
-
-] (./Analisis Factorial.vrb) [22
+(./Analisis Factorial.vrb) [20
 
 ]
-\openout4 = `"Analisis Factorial.vrb"'.
-
-
-(./Analisis Factorial.vrb) [23
-
-]
-\openout4 = `"Analisis Factorial.vrb"'.
-
- (./Analisis Factorial.vrb) [24
-
-]
-(./Analisis Factorial.vrb) [25
-
-]
-\openout4 = `"Analisis Factorial.vrb"'.
-
- (./Analisis Factorial.vrb)
-Overfull \vbox (2.41699pt too high) detected at line 192
- []
-
-[26
-
-] (./Analisis Factorial.vrb)
-Overfull \vbox (2.41699pt too high) detected at line 192
- []
-
-[27
-
-]
-\openout4 = `"Analisis Factorial.vrb"'.
-
- (./Analisis Factorial.vrb) [28
-
-] (./Analisis Factorial.vrb) [29
-
-]
-\openout4 = `"Analisis Factorial.vrb"'.
-
-
-(./Analisis Factorial.vrb) [30
-
-] (./Analisis Factorial.vrb) [31
-
-]
-\openout4 = `"Analisis Factorial.vrb"'.
-
-
-(./Analisis Factorial.vrb) [32
-
-] (./Analisis Factorial.vrb) [33
-
-] [34
-
-]
-\openout4 = `"Analisis Factorial.vrb"'.
-
-
-(./Analisis Factorial.vrb) [35
-
-] (./Analisis Factorial.vrb) [36
-
-]
-(./Analisis Factorial.vrb) [37
-
-] (./Analisis Factorial.vrb) [38
-
-]
-(./Analisis Factorial.vrb) [39
-
-] (./Analisis Factorial.vrb) [40
-
-]
-(./Analisis Factorial.vrb) [41
-
-]
-\openout4 = `"Analisis Factorial.vrb"'.
-
- (./Analisis Factorial.vrb) [42
-
-]
-(./Analisis Factorial.vrb) [43
-
-] (./Analisis Factorial.vrb) [44
-
-]
-(./Analisis Factorial.vrb) [45
-
-] (./Analisis Factorial.vrb) [46
-
-]
-(./Analisis Factorial.vrb) [47
-
-]
-<./Imagenes/preguntas.png, id=280, 186.6975pt x 272.01625pt>
+<./Imagenes/preguntas.png, id=140, 186.6975pt x 272.01625pt>
 File: ./Imagenes/preguntas.png Graphic file (type png)
 <use ./Imagenes/preguntas.png>
-Package pdftex.def Info: ./Imagenes/preguntas.png  used on input line 287.
+Package pdftex.def Info: ./Imagenes/preguntas.png  used on input line 261.
 (pdftex.def)             Requested size: 93.34851pt x 136.00778pt.
- [48
+ [21
 
  <./Imagenes/preguntas.png>]
 \tf@nav=\write6
@@ -1399,15 +1324,15 @@ Package pdftex.def Info: ./Imagenes/preguntas.png  used on input line 287.
 \tf@snm=\write8
 \openout8 = `"Analisis Factorial.snm"'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 290.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 290.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 264.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 264.
 
 (./Analisis Factorial.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 290.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 290.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 264.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 264.
 Package rerunfilecheck Info: File `"Analisis Factorial".out' has not changed.
 (rerunfilecheck)             Checksum: 248F002825934CFA3AAACDAE7E52EB28;137.
 
@@ -1416,26 +1341,28 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 32827 strings out of 492646
- 781329 string characters out of 6133325
- 995756 words of memory out of 5000000
- 35862 multiletter control sequences out of 15000+600000
+ 32719 strings out of 492646
+ 779571 string characters out of 6133325
+ 994756 words of memory out of 5000000
+ 35861 multiletter control sequences out of 15000+600000
  10085 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,13n,98p,1823b,714s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/tex
-live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2018
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><c:/texlive/2018/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmss8.pfb><c:/texlive/2018/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmss9.pfb><c:/texlive/2018/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmssbx10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmssi10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mssi8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
->
-Output written on "Analisis Factorial.pdf" (48 pages, 149608 bytes).
+ 71i,13n,98p,1823b,705s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{Navigation34} has been referenced but does not ex
+ist, replaced by a fixed one
+
+<c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texli
+ve/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2018/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><c:/texlive/2018/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmss8.pfb><c:/texlive/2018/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmss9.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmssbx10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmssi10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cms
+si8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on "Analisis Factorial.pdf" (21 pages, 119399 bytes).
 PDF statistics:
- 342 PDF objects out of 1000 (max. 8388607)
- 272 compressed objects within 3 object streams
- 99 named destinations out of 1000 (max. 500000)
+ 191 PDF objects out of 1000 (max. 8388607)
+ 149 compressed objects within 2 object streams
+ 46 named destinations out of 1000 (max. 500000)
  64 words of extra memory for PDF output out of 10000 (max. 10000000)
 

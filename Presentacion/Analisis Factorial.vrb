@@ -1,17 +1,12 @@
 \frametitle{Funciones}
 \vspace{10px}
-\pause
 \metroset{block=fill}
 \begin{block}{Funciones a usar}
 	\begin{itemize}
 		\item fa: función del paquete psych que implementa Análisis Factorial Exploratorio.
-		\pause
 		\item factanal: función del paquete stats que implementa Análisis Factorial Exploratorio con máxima verosimilitud.
-		\pause
 		\item prcomp: función del paquete stats que implementa PCA.
-		\pause
 		\item principal: función del paquete psych que implementa PCA devolviendo siempre los mejores factores.
 		\item cfa: función del paquete cfa que implementa el análisis confirmatorio de factores.
-		\pause
 	\end{itemize}
 \end{block}

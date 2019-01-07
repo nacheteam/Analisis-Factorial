@@ -48,7 +48,6 @@
 
 \begin{frame}[fragile]{Modelo}
 	\vspace{10px}
-	\pause
 	\metroset{block=fill}
 	\begin{alertblock}{Idea de AF}
 		El objetivo de este modelo es, dada una matriz de covarianzas o de correlación, ser capaz de explicar esta matriz a partir de factores no observados llamados factores comunes, de forma que se pueda explicar la matriz con un número menor de variables que en un punto inicial.
@@ -72,12 +71,10 @@
 
 \begin{frame}[fragile]{Tipos de Análisis Factorial}
 \vspace{10px}
-\pause
 \metroset{block=fill}
 \begin{block}{Tipos}
 	\begin{itemize}
 		\item EFA (Exploratory Factor Analysis): se usa para identificar relaciones complejas entre conceptos o grupos de conceptos.
-		\pause
 		\item CFA (Confirmatory Factor Analsysis): está dirigida a la confirmación de factores que ya se presuponen importantes para explicar la matriz de correlación o covarianza.
 	\end{itemize}
 \end{block}
@@ -85,12 +82,10 @@
 
 \begin{frame}[fragile]{EFA}
 \vspace{10px}
-\pause
 \metroset{block=fill}
 \begin{block}{Procesos de ajuste}
 	\begin{itemize}
 		\item Máxima verosimilitud: es una buena opción cuando los datos se distribuyen según una normal. Se intenta que el modelo de los factores obtenidos tenga máxima verosimilitud.
-		\pause
 		\item Factorización en el eje principal: la intención es ir obteniendo factores de forma que el primero tenga la varianza lo más próxima al objetivo, el segundo factor la segunda varianza más próxima a la varianza objetivo, etc. Maximiza la fórmula del modelo.
 	\end{itemize}
 \end{block}
@@ -99,12 +94,10 @@
 \begin{frame}[fragile]{EFA}
 	La rotación de factores se emplea para obtener la estructura de factores más simple escogiendo una orientación de los mismos.
 	\vspace{10px}
-	\pause
 	\metroset{block=fill}
 	\begin{block}{Rotación de factores}
 		\begin{itemize}
 			\item Ortogonal: implica que los factores estén incorrelados y busca la estructura más simple.
-			\pause
 			\item Oblicua: permite que los factores estén correlados y busca la estructura más simple.
 		\end{itemize}
 	\end{block}
@@ -114,7 +107,6 @@
 \begin{frame}[fragile]{EFA}
 No sólo tenemos que estudiar la generación de los factores, si no también cuántos factores debemos escoger.
 \vspace{10px}
-\pause
 \metroset{block=fill}
 \begin{block}{Métodos para escoger el número de factores}
 	\begin{itemize}
@@ -126,7 +118,6 @@ No sólo tenemos que estudiar la generación de los factores, si no también cu�
 
 \begin{frame}[fragile]{EFA}
 \vspace{10px}
-\pause
 \metroset{block=fill}
 \begin{block}{Métodos para escoger el número de factores}
 	\begin{itemize}
@@ -140,7 +131,6 @@ No sólo tenemos que estudiar la generación de los factores, si no también cu�
 
 \begin{frame}[fragile]{EFA}
 \vspace{10px}
-\pause
 \metroset{block=fill}
 \begin{block}{Métodos para escoger el número de factores}
 	\begin{itemize}
@@ -152,7 +142,6 @@ No sólo tenemos que estudiar la generación de los factores, si no también cu�
 
 \begin{frame}[fragile]{EFA}
 \vspace{10px}
-\pause
 \metroset{block=fill}
 \begin{block}{Métodos para escoger el número de factores}
 	\begin{itemize}
@@ -168,7 +157,6 @@ No sólo tenemos que estudiar la generación de los factores, si no también cu�
 
 \begin{frame}[fragile]{CFA}
 \vspace{10px}
-\pause
 \metroset{block=fill}
 \begin{block}{Métodos para evaluar la hipótesis}
 	\begin{itemize}
@@ -180,7 +168,6 @@ No sólo tenemos que estudiar la generación de los factores, si no también cu�
 
 \begin{frame}[fragile]{CFA}
 \vspace{10px}
-\pause
 \metroset{block=fill}
 \begin{block}{Medidas de ajuste absoluto}
 	\begin{itemize}
@@ -193,7 +180,6 @@ No sólo tenemos que estudiar la generación de los factores, si no también cu�
 
 \begin{frame}[fragile]{CFA}
 \vspace{10px}
-\pause
 \metroset{block=fill}
 \begin{block}{Medidas de ajuste absoluto}
 	\begin{itemize}
@@ -204,7 +190,6 @@ No sólo tenemos que estudiar la generación de los factores, si no también cu�
 
 \begin{frame}[fragile]{CFA}
 \vspace{10px}
-\pause
 \metroset{block=fill}
 \begin{block}{Medidas de ajuste relativo}
 	\begin{itemize}
@@ -217,7 +202,6 @@ No sólo tenemos que estudiar la generación de los factores, si no también cu�
 \begin{frame}[fragile]{PCA y FA}
 ¿Cuál es la diferencia entonces con PCA?
 \vspace{10px}
-\pause
 \metroset{block=fill}
 \begin{alertblock}{Diferencia entre PCA y AF}
 	\begin{itemize}
@@ -236,44 +220,34 @@ No sólo tenemos que estudiar la generación de los factores, si no también cu�
 
 \begin{frame}[fragile]{Instalación}
 	\vspace{10px}
-	\pause
 	\metroset{block=fill}
 	\begin{block}{Paquetes a instalar}
 		\begin{itemize}
 			\item install.packages(``psych''): implementa Análisis Factorial Exploratorio
-			\pause
 			\item install.packages(``GPArotation''): implementa la Rotación de Factores
-			\pause
+			\item install.packages(``cfa''): implementa Análisis Factorial Confirmatorio
 		\end{itemize}
 	\end{block}
 	\vspace{10px}
-	\pause
 	\metroset{block=fill}
 	\begin{alertblock}{Importa los paquetes}
 		\begin{itemize}
 			\item library(psych)
-			\pause
 			\item library(GPArotation)
-			\pause
 		\end{itemize}
 	\end{alertblock}
 \end{frame}
 
 \begin{frame}[fragile]{Funciones}
 \vspace{10px}
-\pause
 \metroset{block=fill}
 \begin{block}{Funciones a usar}
 	\begin{itemize}
 		\item fa: función del paquete psych que implementa Análisis Factorial Exploratorio.
-		\pause
 		\item factanal: función del paquete stats que implementa Análisis Factorial Exploratorio con máxima verosimilitud.
-		\pause
 		\item prcomp: función del paquete stats que implementa PCA.
-		\pause
 		\item principal: función del paquete psych que implementa PCA devolviendo siempre los mejores factores.
 		\item cfa: función del paquete cfa que implementa el análisis confirmatorio de factores.
-		\pause
 	\end{itemize}
 \end{block}
 \end{frame}
