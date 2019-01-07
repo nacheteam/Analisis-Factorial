@@ -4,7 +4,7 @@
 \metroset{block=fill}
 \begin{block}{Funciones a usar}
 	\begin{itemize}
-		\item fa: función del paquete psych que implementa Análisis Factorial.
+		\item fa: función del paquete psych que implementa Análisis Factorial Exploratorio.
 		\pause
 		\item factanal: función del paquete stats que implementa Análisis Factorial Exploratorio con máxima verosimilitud.
 		\pause
@@ -14,5 +14,4 @@
 		\item cfa: función del paquete cfa que implementa el análisis confirmatorio de factores.
 		\pause
 	\end{itemize}
-	En este caso he usado la función fa como función principal y factanal. Para comparar con PCA he usado principal. Para comprar con CFA he usado cfa.
 \end{block}

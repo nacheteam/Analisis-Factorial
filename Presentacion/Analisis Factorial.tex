@@ -178,6 +178,56 @@ No sólo tenemos que estudiar la generación de los factores, si no también cu�
 \end{block}
 \end{frame}
 
+\begin{frame}[fragile]{CFA}
+\vspace{10px}
+\pause
+\metroset{block=fill}
+\begin{block}{Medidas de ajuste absoluto}
+	\begin{itemize}
+		\item Test chi-cuadrado: nos da la diferencia entre la matriz de covarianza observada y predicha con el modelo hipotético. Cuanto más cercano sea el valor a cero mejor es el ajuste.
+		\item Aproximación según la raíz cuadrada del error: se obtiene un valor entre 0 y 1 que mide el error del modelo con respecto a la observación. Cuanto más cercano sea el valor a 0 mejor es el ajuste.
+		\item Raíz cuadrada de la media de los residuos al cuadrado y raíz cuadrada de la media de los residuos estandarizados al cuadrado: no sólo estudiamos los residuos si no que además estandarizamos las variables para que los valores obtenidos sean comparables. El rango de valores está entre 0 y 1 siendo 0 la mejor medida. Normalmente cuando tenemos una puntuación de menos de 0.08 decimos que el modelo es robusto
+	\end{itemize}
+\end{block}
+\end{frame}
+
+\begin{frame}[fragile]{CFA}
+\vspace{10px}
+\pause
+\metroset{block=fill}
+\begin{block}{Medidas de ajuste absoluto}
+	\begin{itemize}
+		\item Índice de bondad del ajuste e índice de bondad del ajuste equilibrado: son medidas del ajuste del modelo y la matriz de covarianza observada. El índice equilibrado pondera el valor de ajuste en la matriz de covarianza para cada factor en función de cuántas variables explique. Los valores que arroja están entre 0 y 1 siendo a partir de 0.9 un buen modelo.
+	\end{itemize}
+\end{block}
+\end{frame}
+
+\begin{frame}[fragile]{CFA}
+\vspace{10px}
+\pause
+\metroset{block=fill}
+\begin{block}{Medidas de ajuste relativo}
+	\begin{itemize}
+		\item Índice de ajuste normado e índice de ajuste no normado: el índice normado analiza las discrepancias entre el valor de la chi-cuadrado con los del modelo y los del modelo base. El problema de este índice es que no es insesgado, lo cual es corregido por el índice de ajuste no normado el cual se mueve entre 0 y 1, siendo valores mayores o iguales a 0.95 indicativos de un buen modelo.
+		\item Índice de ajuste comparativo: el anterior índice normado tiene una alta sensibilidad a la dimensión de la muestra tomada, de forma que este índice se plante extender la idea sin este problema- Compara el ajuste del modelo con un modelo base independiente. Los valores de este índice están ente 0 y 1 siendo necesarios valores mayores o iguales a 0.9 para considerar a la hipótesis un buen modelo.
+	\end{itemize}
+\end{block}
+\end{frame}
+
+\begin{frame}[fragile]{PCA y FA}
+¿Cuál es la diferencia entonces con PCA?
+\vspace{10px}
+\pause
+\metroset{block=fill}
+\begin{alertblock}{Diferencia entre PCA y AF}
+	\begin{itemize}
+		\item PCA no es más que un posible método de extracción en la primera fase de EFA en la que extraemos los factores. Tras esto viene la fase de rotación de los mismos para escoger una oritentación.
+		\item Precisamente, por la carencia de la rotación, PCA no obtiene unos factores únicos, mientras que EFA sí. 
+		\item AF es en general un método mucho más genérico y abierto que PCA.
+	\end{itemize}
+\end{alertblock}
+\end{frame}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                         Explicación del ejemplo y uso en R                              %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -190,7 +240,7 @@ No sólo tenemos que estudiar la generación de los factores, si no también cu�
 	\metroset{block=fill}
 	\begin{block}{Paquetes a instalar}
 		\begin{itemize}
-			\item install.packages(``psych''): implementa Análisis Factorial
+			\item install.packages(``psych''): implementa Análisis Factorial Exploratorio
 			\pause
 			\item install.packages(``GPArotation''): implementa la Rotación de Factores
 			\pause
@@ -215,7 +265,7 @@ No sólo tenemos que estudiar la generación de los factores, si no también cu�
 \metroset{block=fill}
 \begin{block}{Funciones a usar}
 	\begin{itemize}
-		\item fa: función del paquete psych que implementa Análisis Factorial.
+		\item fa: función del paquete psych que implementa Análisis Factorial Exploratorio.
 		\pause
 		\item factanal: función del paquete stats que implementa Análisis Factorial Exploratorio con máxima verosimilitud.
 		\pause
@@ -225,7 +275,6 @@ No sólo tenemos que estudiar la generación de los factores, si no también cu�
 		\item cfa: función del paquete cfa que implementa el análisis confirmatorio de factores.
 		\pause
 	\end{itemize}
-	En este caso he usado la función fa como función principal y factanal. Para comparar con PCA he usado principal. Para comprar con CFA he usado cfa.
 \end{block}
 \end{frame}
 
