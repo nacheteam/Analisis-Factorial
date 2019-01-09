@@ -419,6 +419,53 @@ Además podemos observar que la función hace un plot de la gráfica que compara
 \end{alertblock}
 \end{frame}
 
+\begin{frame}[fragile]{Análisis de los resultados de cfa}
+En este caso estamos empleando el dataset HolzingerSwineford1939 compuesto por 9 variables que reflejan los patrones de respuestas de niños a unos tests. Se cree que el modelo puede ser explicado mediante 3 factores:
+\begin{itemize}
+	\item $visual = x_1 + x_2 + x_3$
+	\item $textual = x_4 + x_5 + x_6$
+	\item $celeridad = x_7 + x_8 + x_9$
+\end{itemize}
+De esta forma podemos expresas en R este modelo con sintaxis lavaan:
+\begin{figure}
+	\includegraphics[scale=1]{./Imagenes/res_cfa1.png}
+	\caption{Código para expresar el modelo}
+\end{figure}
+\end{frame}
+
+\begin{frame}[fragile]{Análisis de los resultados de cfa}
+\metroset{block=fill}
+\begin{alertblock}{Resultados}
+Si hacemos summary del objeto obtenido nos arroja la siguiente información:
+\vspace{10px}
+\begin{figure}
+	\centering
+	\begin{subfigure}{0.49\textwidth}
+		\centering
+		\includegraphics[scale=0.36]{./Imagenes/res_cfa_sum1.png}
+	\end{subfigure}
+	\begin{subfigure}{0.49\textwidth}
+		\centering
+		\includegraphics[scale=0.36]{./Imagenes/res_cfa_sum2.png}
+	\end{subfigure}
+	\caption{Resultados de summary(cfa)}
+\end{figure}
+\end{alertblock}
+\end{frame}
+
+\begin{frame}[fragile]{Análisis de los resultados de cfa}
+Los resultados obtenidos son:
+\metroset{block=fill}
+\begin{alertblock}{Resultados}
+	\begin{itemize}
+		\item Si el método ha convergido y en cuantas iteraciones.
+		\item El número de observaciones en los datos.
+		\item Estimador usado, en este caso máxima verosimilitud.
+		\item Valores estadísticos que nos miden entre otras cosas el error al usar los factores para explicar el modelo.
+	\end{itemize}
+\end{alertblock}
+\end{frame}
+
 \begin{frame}[standout]
 	\LARGE{¿Preguntas?}
 	\vspace{10px}

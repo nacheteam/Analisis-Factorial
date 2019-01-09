@@ -1,13 +1,11 @@
-\frametitle{Análisis de los resultados de factanal}
+\frametitle{Análisis de los resultados de cfa}
+Los resultados obtenidos son:
 \metroset{block=fill}
 \begin{alertblock}{Resultados}
-	Factor analysis with Call: fa(r = cov\_matrix, nfactors = 4, rotate = ``none'', fm = ``uls'')
-	
-	Test of the hypothesis that 4 factors are sufficient.
-	The degrees of freedom for the model is 186  and the objective function was  1.72
-	
-	The root mean square of the residuals (RMSA) is  0.04
-	The df corrected root mean square of the residuals is  0.05
-	
-	Como podemos comprobar los resultados arrojados son iguales a los de la función fa, por lo que la interpretación es la misma.
+	\begin{itemize}
+		\item Si el método ha convergido y en cuantas iteraciones.
+		\item El número de observaciones en los datos.
+		\item Estimador usado, en este caso máxima verosimilitud.
+		\item Valores estadísticos que nos miden entre otras cosas el error al usar los factores para explicar el modelo.
+	\end{itemize}
 \end{alertblock}
