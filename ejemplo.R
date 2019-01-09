@@ -62,12 +62,12 @@ summary(mle_nonrotated)
 summary(uls_nonrotated)
 
 ##                                 CFA                                       ##
-# Hacemos nuestra hip�tesis del modelo
+# Hacemos nuestra hipotesis del modelo
 HS.model <- ' visual  =~ x1 + x2 + x3
               textual =~ x4 + x5 + x6
               speed   =~ x7 + x8 + x9 '
 
-# Comprobamos la hip�tesis
+# Comprobamos la hipotesis
 fit <- cfa(HS.model, data=HolzingerSwineford1939)
 
 # Resultados de CFA
