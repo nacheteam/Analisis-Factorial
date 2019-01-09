@@ -4,7 +4,6 @@ library(psych)
 library(GPArotation)
 library(cfa)
 # Usado para los datos en CFA y la sintaxis lavaan
-library(MBESS)
 library(lavaan)
 
 ##                                 EFA                                       ##
