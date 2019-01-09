@@ -1,17 +1,13 @@
-# Initialize covariance matrix
 cov_matrix <- Harman74.cor$cov
 library(psych)
 library(GPArotation)
 library(cfa)
-# Usado para los datos en CFA y la sintaxis lavaan
 library(lavaan)
 
 ##                                 EFA                                       ##
-
 ###############################################################################
 ##                         Number of factors                                 ##
 ###############################################################################
-
 VSS(sim.item(nvar=24),n=8,fm="minres" ,title="VSS of 24 simple structure variables")
 
 ###############################################################################
@@ -27,7 +23,6 @@ wls_rotated <- fa(cov_matrix, 4, fm = "wls")
 ###############################################################################
 ##                       Maximumm likelihood                                ##
 ###############################################################################
-
 mle_rotated <- factanal(covmat = cov_matrix, factors = 4)
 
 ###############################################################################
@@ -67,12 +62,12 @@ summary(mle_nonrotated)
 summary(uls_nonrotated)
 
 ##                                 CFA                                       ##
-# Hacemos nuestra hipótesis del modelo
-HS.model <- ' visual  =~ x1 + x2 + x3      
+# Hacemos nuestra hipï¿½tesis del modelo
+HS.model <- ' visual  =~ x1 + x2 + x3
               textual =~ x4 + x5 + x6
               speed   =~ x7 + x8 + x9 '
 
-# Comprobamos la hipótesis
+# Comprobamos la hipï¿½tesis
 fit <- cfa(HS.model, data=HolzingerSwineford1939)
 
 # Resultados de CFA
