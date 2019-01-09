@@ -1,15 +1,16 @@
-\frametitle{Función factanal}
+\frametitle{Función cfa}
 La función tiene un gran número de parámetros, pero los esenciales son los siguientes:\\
 \vspace{10px}
-factanal(x, factors, data = NULL, covmat = NULL, n.obs = NA,
-subset, na.action, start = NULL,
-scores = c(``none'', ``regression'', ``Bartlett''),
-rotation = ``varimax'', control = NULL, ...)
+cfa(model = NULL, data = NULL, ordered = NULL, sampling.weights = NULL,
+sample.cov = NULL, sample.mean = NULL, sample.th = NULL,
+sample.nobs = NULL, group = NULL, cluster = NULL,
+constraints = ``'', WLS.V = NULL, NACOV = NULL,
+...)
 \vspace{10px}
 \metroset{block=fill}
-\begin{block}{Parámetros esenciales de la función factanal}
+\begin{block}{Parámetros esenciales de la función cfa}
 	\begin{itemize}
-		\item x: matriz de correlación o datos.
-		\item factors: número de factores máximos.
+		\item model: modelo especificado en sintaxis lavaan
+		\item data: variables observadas experimentalmente
 	\end{itemize}
 \end{block}
