@@ -1,18 +1,14 @@
-\frametitle{Función fa}
+\frametitle{Función VSS}
 La función tiene un gran número de parámetros, pero los esenciales son los siguientes:\\
 \vspace{10px}
-fa(r,nfactors=1,n.obs = NA,n.iter=1, rotate=``oblimin'', scores=``regression'',
-residuals=FALSE, SMC=TRUE, covar=FALSE,missing=FALSE,impute=``median'',
-min.err = 0.001,  max.iter = 50,symmetric=TRUE, warnings=TRUE, fm=``minres'',
-alpha=.1,p=.05,oblique.scores=FALSE,np.obs=NULL,use=``pairwise'',cor=``cor'',
-correct=.5,weight=NULL,...)
+VSS(x, n = 8, rotate = ``varimax'', diagonal = FALSE, fm = ``minres'',
+n.obs=NULL,plot=TRUE,title=``Very Simple Structure'',use=``pairwise'',cor=``cor'',...)
 \vspace{10px}
 \metroset{block=fill}
-\begin{block}{Parámetros esenciales de la función fa}
+\begin{block}{Parámetros esenciales de la función VSS}
 	\begin{itemize}
-		\item r: matriz de covarianza o correlación.
-		\item nfactors: número de factores a obtener.
+		\item x: matriz de correlación o datos.
+		\item n: número de factores máximos.
 		\item fm: método de ajuste empleado.
-		\item rotate: método de rotación empleado.
 	\end{itemize}
 \end{block}
