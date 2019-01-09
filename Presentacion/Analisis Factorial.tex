@@ -247,10 +247,31 @@ No sólo tenemos que estudiar la generación de los factores, si no también cu�
 \begin{block}{Funciones a usar}
 	\begin{itemize}
 		\item fa: función del paquete psych que implementa Análisis Factorial Exploratorio.
+		\item nfactors: función que devuelve el número de factores a obtener usando los métodos explicados en EFA
 		\item factanal: función del paquete stats que implementa Análisis Factorial Exploratorio con máxima verosimilitud.
 		\item prcomp: función del paquete stats que implementa PCA.
 		\item principal: función del paquete psych que implementa PCA devolviendo siempre los mejores factores.
 		\item cfa: función del paquete cfa que implementa el análisis confirmatorio de factores.
+	\end{itemize}
+\end{block}
+\end{frame}
+
+\begin{frame}[fragile]{Función fa}
+La función tiene un gran número de parámetros, pero los esenciales son los siguientes:\\
+\vspace{10px}
+fa(r,nfactors=1,n.obs = NA,n.iter=1, rotate=``oblimin'', scores=``regression'', 
+residuals=FALSE, SMC=TRUE, covar=FALSE,missing=FALSE,impute=``median'',
+min.err = 0.001,  max.iter = 50,symmetric=TRUE, warnings=TRUE, fm=``minres'',
+alpha=.1,p=.05,oblique.scores=FALSE,np.obs=NULL,use=``pairwise'',cor=``cor'',
+correct=.5,weight=NULL,...)
+\vspace{10px}
+\metroset{block=fill}
+\begin{block}{Parámetros esenciales de la función fa}
+	\begin{itemize}
+		\item r: matriz de covarianza o correlación.
+		\item nfactors: número de factores a obtener.
+		\item fm: método de ajuste empleado.
+		\item rotate: método de rotación empleado.
 	\end{itemize}
 \end{block}
 \end{frame}
