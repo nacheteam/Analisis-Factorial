@@ -380,6 +380,29 @@ constraints = ``'', WLS.V = NULL, NACOV = NULL,
 \end{alertblock}
 \end{frame}
 
+\begin{frame}[fragile]{Análisis de los resultados de VSS}
+En este caso estamos llamando a la función VSS con unos datos simulados aleatorios de 24 variables.
+\metroset{block=fill}
+\begin{alertblock}{Resultados}
+	\begin{figure}
+		\includegraphics[scale=0.27]{./Imagenes/res_vss1.png}
+		\caption{Resultados del objeto VSS}
+	\end{figure}
+	Podemos observar que con summary visualizamos todas las medidas de bonanza del modelo como por ejemplo con chisq (chi-cuadrado) tal y como explicamos en la etapa teórica. Además podemos observar que nos indica que el modelo con mejor ajuste y menor complejidad es el que tiene 2 factores.
+\end{alertblock}
+\end{frame}
+\begin{frame}[fragile]{Análisis de los resultados de VSS}
+Además podemos observar que la función hace un plot de la gráfica que compara la medida obtenida para cada tipo de medida y número de factores.
+\metroset{block=fill}
+\begin{alertblock}{Resultados}
+	\begin{figure}
+		\includegraphics[scale=0.25]{./Imagenes/res_vss2.png}
+		\caption{Resultados del plot de VSS}
+	\end{figure}
+	Como podemos observar el modelo obtiene una mejora al usar dos factores y no mejora al incrementar dicho número, por lo que los resultados obtenidos son consistentes.
+\end{alertblock}
+\end{frame}
+
 \begin{frame}[standout]
 	\LARGE{¿Preguntas?}
 	\vspace{10px}

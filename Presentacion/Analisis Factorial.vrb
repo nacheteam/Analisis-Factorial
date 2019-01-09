@@ -1,9 +1,10 @@
-\frametitle{Análisis de los resultados de fa}
+\frametitle{Análisis de los resultados de VSS}
+Además podemos observar que la función hace un plot de la gráfica que compara la medida obtenida para cada tipo de medida y número de factores.
 \metroset{block=fill}
 \begin{alertblock}{Resultados}
 	\begin{figure}
-		\includegraphics[scale=0.4]{./Imagenes/res_fa.png}
-		\caption{Resultados del objeto fa}
+		\includegraphics[scale=0.25]{./Imagenes/res_vss2.png}
+		\caption{Resultados del plot de VSS}
 	\end{figure}
-	El valor h2 es la suma de todos los pesos al cuadrado para esa variable, u2 nos da una medida de la unicidad y com una medida de la complejidad para expresar esa variable con los factores obtenidos.
+	Como podemos observar el modelo obtiene una mejora al usar dos factores y no mejora al incrementar dicho número, por lo que los resultados obtenidos son consistentes.
 \end{alertblock}
