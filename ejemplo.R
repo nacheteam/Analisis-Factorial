@@ -64,3 +64,4 @@ fit <- cfa(HS.model, data=HolzingerSwineford1939)
 
 # Resultados de CFA
 summary(fit, fit.measures=TRUE)
+summary(fit)
