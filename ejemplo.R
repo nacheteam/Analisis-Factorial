@@ -3,16 +3,12 @@ library(psych)
 library(GPArotation)
 library(cfa)
 library(lavaan)
-
 ##                                 EFA                                       ##
-###############################################################################
+
 ##                         Number of factors                                 ##
-###############################################################################
 VSS(sim.item(nvar=24),n=8,fm="minres" ,title="VSS of 24 simple structure variables")
 
-###############################################################################
 ##                               With rotation                               ##
-###############################################################################
 # Principal Axis
 pa_rotated <- fa(cov_matrix, 4, fm="pa", rotate="varimax")
 # Unweighted least squares is minres
@@ -20,14 +16,10 @@ uls_rotated <- fa(cov_matrix, 4, rotate = "varimax")
 # Weighted least squares
 wls_rotated <- fa(cov_matrix, 4, fm = "wls")
 
-###############################################################################
 ##                       Maximumm likelihood                                ##
-###############################################################################
 mle_rotated <- factanal(covmat = cov_matrix, factors = 4)
 
-###############################################################################
 ##                              No rotation                                  ##
-###############################################################################
 # Weighted least squares
 wls_nonrotated <- fa(cov_matrix,4 , rotate = "none", fm="wls")
 # Principal Axis
