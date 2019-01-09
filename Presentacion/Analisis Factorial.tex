@@ -325,6 +325,43 @@ constraints = ``'', WLS.V = NULL, NACOV = NULL,
 \end{block}
 \end{frame}
 
+\begin{frame}[fragile]{Script}
+	A continuación se muestra el script de ejemplo elaborado.
+	\vspace{10px}
+	\begin{figure}
+		\centering
+		\begin{subfigure}{0.49\textwidth}
+			\centering
+			\includegraphics[scale=0.287]{./Imagenes/codigo1.png}
+		\end{subfigure}
+		\begin{subfigure}{0.49\textwidth}
+			\centering
+			\includegraphics[scale=0.33]{./Imagenes/codigo2.png}
+		\end{subfigure}
+	\caption{Código de ejemplo en R}
+	\end{figure}
+\end{frame}
+
+\begin{frame}[fragile]{Análisis de los resultados de fa}
+	\metroset{block=fill}
+	\begin{alertblock}{Resultados}
+		Factor analysis with Call: fa(r = cov\_matrix, nfactors = 4, rotate = "varimax", fm = "pa")
+		
+		Test of the hypothesis that 4 factors are sufficient.
+		The degrees of freedom for the model is 186  and the objective function was  1.72 
+		
+		The root mean square of the residuals (RMSA) is  0.04 
+		The df corrected root mean square of the residuals is  0.05 
+		
+		\begin{itemize}
+			\item La primera línea nos dice la llamada a la función fa.
+			\item La segunda nos da la información sobre si los 4 factores son suficientes.
+			\item La penúltima línea es la raíz cuadrada de la media de los residuos RMSA.
+			\item La última línea es la raíz cuadrada de la media de los residuos estandarizados al cuadrado.
+		\end{itemize}
+	\end{alertblock}
+\end{frame}
+
 \begin{frame}[standout]
 	\LARGE{¿Preguntas?}
 	\vspace{10px}
