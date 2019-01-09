@@ -1,10 +1,13 @@
-\frametitle{Análisis de los resultados de VSS}
-Además podemos observar que la función hace un plot de la gráfica que compara la medida obtenida para cada tipo de medida y número de factores.
+\frametitle{Análisis de los resultados de factanal}
 \metroset{block=fill}
 \begin{alertblock}{Resultados}
-	\begin{figure}
-		\includegraphics[scale=0.25]{./Imagenes/res_vss2.png}
-		\caption{Resultados del plot de VSS}
-	\end{figure}
-	Como podemos observar el modelo obtiene una mejora al usar dos factores y no mejora al incrementar dicho número, por lo que los resultados obtenidos son consistentes.
+	Factor analysis with Call: fa(r = cov\_matrix, nfactors = 4, rotate = ``none'', fm = ``uls'')
+	
+	Test of the hypothesis that 4 factors are sufficient.
+	The degrees of freedom for the model is 186  and the objective function was  1.72
+	
+	The root mean square of the residuals (RMSA) is  0.04
+	The df corrected root mean square of the residuals is  0.05
+	
+	Como podemos comprobar los resultados arrojados son iguales a los de la función fa, por lo que la interpretación es la misma.
 \end{alertblock}
