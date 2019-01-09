@@ -44,27 +44,27 @@ mle_nonrotated <- fa(cov_matrix, 4, rotate = "none", fm="mle")
 # Unweighted least squares
 uls_nonrotated <- fa(cov_matrix, 4, rotate = "none", fm="uls")
 
-cat("\n\n\n          ----------------\n          | CON ROTACION |\n          ----------------\n\n\n")
-cat("Resultados de principal axis con rotacion:\n\n")
-print(pa_rotated)
-cat("\n\nResultados de unweighted least squares con rotacion:\n\n")
-print(uls_rotated)
-cat("\n\nResultados de weighted least squares con rotacion:\n\n")
-print(wls_rotated)
-cat("\n\nResultados de maximum likelihood con rotacion:\n\n")
-print(mle_rotated)
+#----------------          | CON ROTACION |          ----------------
+#Resultados de principal axis con rotacion:
+summary(pa_rotated)
+#Resultados de unweighted least squares con rotacion:
+summary(uls_rotated)
+#Resultados de weighted least squares con rotacion:
+summary(wls_rotated)
+#Resultados de maximum likelihood con rotacion:
+summary(mle_rotated)
 
-cat("\n\n\n          ----------------\n          | SIN ROTACION |\n          ----------------\n\n\n")
-cat("Resultados de weighted least squares sin rotacion:\n\n")
-print(wls_nonrotated)
-cat("Resultados de principal axis sin rotacion:\n\n")
-print(pa_nonrotated)
-cat("Resultados de minres sin rotacion:\n\n")
-print(minres_nonrotated)
-cat("Resultados de maximum likelihood sin rotacion:\n\n")
-print(mle_nonrotated)
-cat("Resultados de unweighted least squares sin rotacion:\n\n")
-print(uls_nonrotated)
+#----------------          | SIN ROTACION |          ----------------
+#Resultados de weighted least squares sin rotacion:
+summary(wls_nonrotated)
+#Resultados de principal axis sin rotacion:
+summary(pa_nonrotated)
+#Resultados de minres sin rotacion:
+summary(minres_nonrotated)
+#Resultados de maximum likelihood sin rotacion:
+summary(mle_nonrotated)
+#Resultados de unweighted least squares sin rotacion:
+summary(uls_nonrotated)
 
 ##                                 CFA                                       ##
 # Hacemos nuestra hipótesis del modelo
@@ -75,5 +75,5 @@ HS.model <- ' visual  =~ x1 + x2 + x3
 # Comprobamos la hipótesis
 fit <- cfa(HS.model, data=HolzingerSwineford1939)
 
-# Comprobamos los datos sobre el ajuste
+# Resultados de CFA
 summary(fit, fit.measures=TRUE)
