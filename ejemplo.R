@@ -5,21 +5,21 @@ library(cfa)
 library(lavaan)
 ##                                 EFA                                       ##
 
-##                         Number of factors                                 ##
+##                        Numero de factores                                 ##
 VSS(sim.item(nvar=24),n=8,fm="minres" ,title="VSS of 24 simple structure variables")
 
-##                               With rotation                               ##
+##                               Con rotacion                                ##
 # Principal Axis
 pa_rotated <- fa(cov_matrix, 4, fm="pa", rotate="varimax")
-# Unweighted least squares is minres
+# Unweighted least squares: minres
 uls_rotated <- fa(cov_matrix, 4, rotate = "varimax")
 # Weighted least squares
 wls_rotated <- fa(cov_matrix, 4, fm = "wls")
 
-##                       Maximumm likelihood                                ##
+##                       Máxima verosimilitud                                ##
 mle_rotated <- factanal(covmat = cov_matrix, factors = 4)
 
-##                              No rotation                                  ##
+##                             Sin rotacion                                  ##
 # Weighted least squares
 wls_nonrotated <- fa(cov_matrix,4 , rotate = "none", fm="wls")
 # Principal Axis
