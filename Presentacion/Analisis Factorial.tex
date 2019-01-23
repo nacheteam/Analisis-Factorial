@@ -407,13 +407,12 @@ Además podemos observar que la función hace un plot de la gráfica que compara
 \begin{frame}[fragile]{Análisis de los resultados de factanal}
 \metroset{block=fill}
 \begin{alertblock}{Resultados}
-	Factor analysis with Call: fa(r = cov\_matrix, nfactors = 4, rotate = ``none'', fm = ``uls'')
+	Call:
+	factanal(factors = 4, covmat = cov\_matrix)
 	
-	Test of the hypothesis that 4 factors are sufficient.
-	The degrees of freedom for the model is 186  and the objective function was  1.72 
+	The degrees of freedom for the model is 186 and the fit was 1.7108 
 	
-	The root mean square of the residuals (RMSA) is  0.04 
-	The df corrected root mean square of the residuals is  0.05 
+	Nos arroja al igual que en fa una matriz con las combinaciones de los factores para explicar cada variable.
 	
 	Como podemos comprobar los resultados arrojados son iguales a los de la función fa, por lo que la interpretación es la misma.
 \end{alertblock}
