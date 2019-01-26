@@ -1,3 +1,0 @@
-\babel@toc {spanish}{}
-\beamer@sectionintoc {1}{Explicaci\IeC {\'o}n te\IeC {\'o}rica del modelo}{3}{0}{1}
-\beamer@sectionintoc {2}{Explicaci\IeC {\'o}n del ejemplo en R}{18}{0}{2}
